@@ -11,9 +11,10 @@ def getDistance(x1, y1, x2, y2):
     return math.sqrt(getQuadro(distanceX) + getQuadro(distanceY))
 
 
-def getQuadro(number):
-    return number * number
+#def getQuadro(number):
+#    return number * number
 
+getQuadro = lambda number: number*number
 
 x1Coordinate = int(input('Введите координату X1: '))
 y1Coordinate = int(input('Введите координату Y1: '))
