@@ -6,9 +6,10 @@ N = int(input())
 
 array = [random.randint(1, N) for x in range(1, N + 1)]
 
-def calcSerial(n):
-    return (1 + (1 / n)) ** n
+#def calcSerial(n):
+#    return (1 + (1 / n)) ** n
 
+calcSerial = lambda n: (1 + (1 / n)) ** n
 
 elementsSum = 0
 for i in array:
