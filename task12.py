@@ -9,7 +9,9 @@
 # - [2, 3, 5, 6, 7, 8, 9] => [18, 24, 35, 36]
 import math
 
-array = [2, 3, 5, 6, 7, 8, 9]
+#array = [2, 3, 5, 6, 7, 8, 9]
+array = list(map(int, input("Введите числа через пробел: ").split()))
+
 newArray = []
 productOfPairs = 0
 
